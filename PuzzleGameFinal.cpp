@@ -120,8 +120,7 @@ void startGame1(ScenePtr scene, int i) {
 						}
 					}
 
-					std::cout << pz[a][b].x << pz[a][b].y << std::endl;
-					std::cout << a << b << std::endl;
+					
 
 					if (a - 1 >= 0) {//상
 						if (pz[a - 1][b].x == 3 && pz[a - 1][b].y == 3) {
